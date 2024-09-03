@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <h2>Instagram Dashboard</h2>
+            <ul>
+                <li><a href="#">Vue d'ensemble</a></li>
+                <li><a href="#">Croissance des abonnés</a></li>
+                <li><a href="#">Engagement</a></li>
+                <li><a href="#">Performance des publications</a></li>
+                <li><a href="#">Paramètres</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <header>
+                <h1>Vue d'ensemble des interactions</h1>
+            </header>
+            <div class="stats">
+                <div class="card">
+                    <h3>Abonnés</h3>
+                    <p id="followers">1,234</p>
+                    <p class="change">+50 cette semaine</p>
+                </div>
+                <div class="card">
+                    <h3>Publications</h3>
+                    <p id="posts">567</p>
+                    <p class="change">+5 ce mois</p>
+                </div>
+                <div class="card">
+                    <h3>Engagement</h3>
+                    <p id="engagement-rate">8.5%</p>
+                    <p class="change">+1.2% ce mois</p>
+                </div>
+                <div class="card">
+                    <h3>Impressions</h3>
+                    <p id="impressions">15,678</p>
+                    <p class="change">+200 cette semaine</p>
+                </div>
+            </div>
+            <div id="charts">
+                <!-- Espace pour les graphiques (ex: courbes de croissance) -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
